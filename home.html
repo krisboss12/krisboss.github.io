@@ -1,0 +1,177 @@
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color:black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: lime;
+    color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Books to Movies</h1>
+</div>
+
+<div class="topnav">
+  <p><a href="https://projects-kris1134.c9users.io/about.html">Learn More</a></p>
+  <p><a href="https://projects-kris1134.c9users.io/about.html">Contact</a></p>
+  <p><a href="https://projects-kris1134.c9users.io/about.html">Find A Book</a></p>
+  <p><a href="https://projects-kris1134.c9users.io/about.html">Find A Movie</a></p>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>Ready Player One</h2>
+    <p>Ready Player One is a 2011 science fiction novel, and the debut novel of American author Ernest Cline. The story, set in a dystopian 2040s, follows protagonist Wade Watts on his search for an Easter egg in a worldwide virtual reality game, the discovery of which will lead him to inherit the game creator's fortune.</p>
+  <p><a href="https://projects-kris1134.c9users.io/rp1.html">See More</a></p>
+  </div>
+  <div class="column">
+    <h2>Divergent</h2>
+    <p>The novel is the first of the Divergent trilogy, a series of young adult dystopian novels set in the Divergent Universe.[1] The novel Divergent features a post-apocalyptic version of Chicago and follows Beatrice "Tris" Prior as she explores her identity within a society that defines its citizens by their social and personality-related affiliation with five factions, which removes the threat of anyone exercising independent will and re-threatening the population's safety. Underlying the action and dystopian focused main plot is a romantic subplot between Tris and one of her instructors in the Dauntless faction, nicknamed Four</p>
+   <p><a href="https://projects-kris1134.c9users.io/divergent.html">See More</a></p>
+  </div>
+  <div class="column">
+    <h2>Cloudy With A Chance Of Meatballs</h2>
+    <p>The book details a bedtime story narrated by a grandfather to his grandchildren, chronicling the daily lives of the citizens of an unordinary town called Chewandswallow characterized by its strange daily meteorological pattern that provides the townsfolk with all of their required daily meals by raining food. Although the residents of the town enjoy a lifestyle devoid of any grocery shopping or cookery, the weather unexpectedly and inexplicably takes a turn for the worse after a couple of centuries later.</p>
+   <p><a href="https://projects-kris1134.c9users.io/about.html">See More</a></p>
+  </div>
+</div>
+
+</body>
+</html>
+<html>
+<head>
+<style>
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+  <a target="_blank" href="https://is3-ssl.mzstatic.com/image/thumb/Video118/v4/22/d8/91/22d891b0-96cb-e8a1-8bf0-dcff9d7bbcb8/source/1200x630bb.jpg">
+    <img src="https://is3-ssl.mzstatic.com/image/thumb/Video118/v4/22/d8/91/22d891b0-96cb-e8a1-8bf0-dcff9d7bbcb8/source/1200x630bb.jpg" alt="Maze Runner" width="300" height="200">
+  </a>
+  <div class="desc">Thomas wakes up in a metal elevator that brings him to a place called the Glade. He has no memory of who he is or how he got there. He gradually discovers that the Glade is run by two boys: Alby, the leader, and Newt, the second-in-charge, who both maintain order by enforcing simple but effective rules.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://images-na.ssl-images-amazon.com/images/I/51tvHLyFKNL._SX333_BO1,204,203,200_.jpg">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/51tvHLyFKNL._SX333_BO1,204,203,200_.jpg" alt="Cloudy With A Chance Of MeatBalls" width="600" height="400">
+  </a>
+  <div class="desc">Flint Lockwood is a wannabe-scientist who lives in Swallow Falls, a tiny island in the middle of the Atlantic Ocean that has sardines as the base of its economy. Flint lives with Tim, his widowed technophobic father, and his pet monkey, Steve. Despite Flint's zealous enthusiasm, his inventions, including spray-on shoes, a remote controlled television, rat birds, hair-un-balder, and a flying car, all ended in failure.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://images-na.ssl-images-amazon.com/images/I/41LPBRNaVCL._SX355_BO1,204,203,200_.jpg">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/41LPBRNaVCL._SX355_BO1,204,203,200_.jpg" alt="Hunger Games" width="600" height="400">
+  </a>
+  <div class="desc">In what was once North America, the Capitol of Panem maintains its hold on its 12 districts by forcing them each to select a boy and a girl, called Tributes, to compete in a nationally televised event called the Hunger Games.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://images-na.ssl-images-amazon.com/images/I/91HMKqEz5YL.jpg">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/91HMKqEz5YL.jpg" alt="The Book Theif" width="600" height="400">
+  </a>
+  <div class="desc">In 1938, young orphan Liesel (Sophie Nélisse) arrives at the home of her new foster parents, Hans (Geoffrey Rush) and Rosa (Emily Watson). When Hans, a kindly housepainter, learns that Liesel cannot read, he teaches the child the wonders of the written language.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://images-na.ssl-images-amazon.com/images/I/919vcf6TJqL._RI_SX200_.jpg">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/919vcf6TJqL._RI_SX200_.jpg" alt="The Hobbit" width="600" height="400">
+  </a>
+  <div class="desc">Bilbo Baggins (Martin Freeman) lives a simple life with his fellow hobbits in the shire, until the wizard Gandalf (Ian McKellen) arrives and convinces him to join a group of dwarves on a quest to reclaim the kingdom of Erebor</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://m.media-amazon.com/images/M/MV5BNjQ3NWNlNmQtMTE5ZS00MDdmLTlkZjUtZTBlM2UxMGFiMTU3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UX182_CR0,0,182,268_AL_.jpg">
+    <img src="https://m.media-amazon.com/images/M/MV5BNjQ3NWNlNmQtMTE5ZS00MDdmLTlkZjUtZTBlM2UxMGFiMTU3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="Harry Potter" width="600" height="400">
+  </a>
+  <div class="desc">The central character in the series is Harry Potter, a boy who lives in Surrey with his aunt, uncle, and cousin - the Dursleys - who discovers, at the age of eleven, that he is a wizard, though he lives in the ordinary world of non-magical people known as Muggles.[8] The wizarding world exists parallel to the Muggle world, albeit hidden and in secrecy. His magical ability is inborn and children with such abilities are invited to attend exclusive magic schools that teach the necessary skills to succeed in the wizarding world.[9] Harry becomes a student at Hogwarts School of Witchcraft and Wizardry, a wizarding academy in Scotland and it is here where most of the events in the series take place. As Harry develops through his adolescence, he learns to overcome the problems that face him: magical, social and emotional, including ordinary teenage challenges such as friendships, infatuation, romantic relationships, schoolwork and exams, anxiety, depression, stress, and the greater test of preparing himself for the confrontation that lies ahead in wizarding Britain's increasingly-violent second wizarding war.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4bpRfVFmDwfrF-lIZfZhdlpNcZyRsvyBSwReSHofoN7gmfDJWRg">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4bpRfVFmDwfrF-lIZfZhdlpNcZyRsvyBSwReSHofoN7gmfDJWRg" alt="Lord of the Rings( Return of the King)" width="600" height="400">
+  </a>
+  <div class="desc">The Lord of the Rings: The Return of the King" presents the final confrontation between the forces of good and evil fighting for control of the future of Middle-earth. Hobbits Frodo and Sam reach Mordor in their quest to destroy the `one ring', while Aragorn leads the forces of good against Sauron's evil army at the stone city of Minas Tirith.</div>
+</div>
+</body>
+</html>
+
