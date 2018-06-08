@@ -1,5 +1,6 @@
 body {
-    background-image: url(ready-player-one.jpg);
+    background-image: url("first.jpg");
+    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -24,4 +25,3 @@ h6 {
 }
 p {
     color: white
-}
